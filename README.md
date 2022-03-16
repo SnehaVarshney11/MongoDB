@@ -54,4 +54,7 @@ Adobe, LinkedIn, McAfee, FourSquare, eBay, MetLife, SAP
 # Download MongoDb via this link->
 https://www.mongodb.com/try/download/community (Download msi file)
 * <b> Steps to download </b>
-Open downloaded msi file -> click on next -> accept terms then next -> chose complete setup type -> next -> then click on install -> click on finish
+Open downloaded msi file -> click on next -> accept terms then next -> chose complete setup type -> next -> then click on install -> click on finish<br>
+Go to C Drive -> Program files -> MongoDB -> Server -> 5.0 -> bin then copy the path
+* Now SetUp Path --> Go to Environment Variable -> In advance tab go to Environment Variables -> Under system variable go to <b>Path</b> then <b>New</b> then paste the same path -> click on OK
+* Now open CMD -> type mongod -> type mongo -> show dbs

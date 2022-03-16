@@ -17,7 +17,7 @@
 2) NoSql database are document based, key-value pairs, graph databases.
 3) They are horizontally scalable.
 4) MongoDB, Redis, Neo4j, Cassendra etc. <br>
-<img src="/IMAGE/Difference.png">
+<img src="/IMAGES/Difference.png">
 
 # What is MongoDB
 * MongoDB is a cross-platform, document oriented database that provides-->
@@ -25,7 +25,7 @@ High Performance, High Availability, Easy Scalability
 * It works on the concept of <b>Collection</b> and <b>Document</b>
 * There is no concept of rows. <br>
 * Use JSON Structure means MongoDb uses JS Object.
-<img src="/IMAGE/Architecture.png">
+<img src="/IMAGES/Architecture.png">
 * <b> Main Advantage of MongoDB -> </b> In mongodb, we don't think about the structure and schema. 
 <br><br>
 <b> Database -> </b>Database is a physical container for collections. Each database gets its own set of files on the file system. A single MongoDB server typically has mutilple database.<br> 
@@ -76,9 +76,38 @@ JavaScript Object Notation (JSON) is a standard file format that uses human type
 
 # Difference between JSON and BSON
 JSON is used to transmit the data and BSON is used to store the data.
-<img src="/IMAGE/JsonAndBson.png">
+<img src="/IMAGES/JsonAndBson.png">
 
 # Different MongoDB Data Types
-<img src="/IMAGE/Data-Types.jpg"><br>
-* <b><u>Integer:</u></b>Integer is a data type that is used for storing a numerical value. 
-<h4> db.TestCollection.insert({"Integer example": 62}) </h4>
+<img src="/IMAGES/Data-Types.jpg"><br>
+* <b><u>Integer:</u></b>Integer is a data type that is used for storing a numerical value.
+<h3>Example:</h3> 
+<h4>&nbsp;&nbsp; db.TestCollection.insert({"Integer example": 62}) </h4><br>
+<img src="/IMAGES/Integer.png">
+
+* <b><u>String:</u></b>String is one of the most frequently implemented data type for storing the data.
+<h3>Example:</h3> 
+<h4>&nbsp;&nbsp; db.TestCollection.insert({"string data type" : "This is a sample message."})
+<img src="/IMAGES/String.png">
+
+* <b><u>Double:</u></b>Double, as we know, is used to store float values. It represents the float value and is of 8 bytes.
+<h3>Example:</h3> 
+<h4>&nbsp;&nbsp; db.TestCollection.insert({"double data type": 3.1415})
+<img src="/IMAGES/Double.png">
+
+* <b><u>Null:</u></b>Null is implemented for storing a Null value.
+<h3>Example:</h3> 
+<h4>&nbsp;&nbsp; db.TestCollection.insert({" EmailID ": null})
+<img src="/IMAGES/Null.png">
+
+* <b><u>Date:</u></b>Date is implemented for storing the current date and time as UNIX-time format.
+<h3>Example:</h3> 
+var date=new Date()
+
+var date2=ISODate()
+
+var month=date2.getMonth()
+
+db.TestCollection.insert({"Date":date, "Date2":date2, "Month":month})
+
+<img src="/IMAGES/Date.png">

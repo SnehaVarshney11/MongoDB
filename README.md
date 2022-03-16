@@ -111,3 +111,25 @@ var month=date2.getMonth()
 db.TestCollection.insert({"Date":date, "Date2":date2, "Month":month}) <br>
 
 <img src="/IMAGES/Date.png">
+
+* <b><u>Boolean:</u></b>Boolean is implemented for storing a Boolean (i.e., true or false) values.
+<h3>Example:</h3> 
+<h4>&nbsp;&nbsp; db.TestCollection.insert({"Nationality Indian": true}) <br>
+<img src="/IMAGES/Boolean.png">
+
+* <b><u>Arrays:</u></b>Arrays are implemented for storing arrays or list type or several values under a single key.
+<h3>Example:</h3> 
+var degrees = ["BCA", "BS", "MCA"]
+<h4>&nbsp;&nbsp; db.TestCollection.insert({" Array Example" : " Here is an example of array"," Qualification" : degrees})</h4><br>
+<img src="/IMAGES/Array.png">
+
+* <b><u>Object:</u></b>Object is implemented for embedded documents.
+<h3>Example:</h3> 
+var embeddedObject = {"English" : 94, "ComputerSc." : 96, "Maths" : 80, "GeneralSc." : 85}
+<h4>&nbsp;&nbsp; db.TestCollection.insert({"Object data type" : "This is Object","Marks" : embeddedObject})</h4><br>
+<img src="/IMAGES/Object.png">
+
+* <b><u>Min/Max Keys:</u></b>Min / Max keys are implemented for comparing a value adjacent to the lowest as well as highest BSON elements.
+<h3>Example:</h3> 
+<h4>&nbsp;&nbsp; db.TestCollection.insert({"Nationality Indian": true}) <br>
+<img src="/IMAGES/Boolean.png">

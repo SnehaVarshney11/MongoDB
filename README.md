@@ -53,8 +53,17 @@ In Big Data, Content Management and Delivery, Mobile and Social Infrastructure, 
 Adobe, LinkedIn, McAfee, FourSquare, eBay, MetLife, SAP
 # Download MongoDb via this link->
 https://www.mongodb.com/try/download/community (Download msi file)
-* <b> Steps to download </b>
+* <b><u> Steps to download </u></b>
 Open downloaded msi file -> click on next -> accept terms then next -> chose complete setup type -> next -> then click on install -> click on finish<br>
 Go to C Drive -> Program files -> MongoDB -> Server -> 5.0 -> bin then copy the path
 * Now SetUp Path --> Go to Environment Variable -> In advance tab go to Environment Variables -> Under system variable go to <b>Path</b> then <b>New</b> then paste the same path -> click on OK
-* Now open CMD -> type mongod -> type mongo -> show dbs
+* Now open CMD -> type mongod -> type mongo -> show dbs<br>
+* <b><u> To Create Database </u></b> --> write <b>use database_name </b> (in cmd) 
+* <b> NOTE: </b> Now there is no collection in this database if we show this database by using show dbs, it will not show that database because we need to have atleast one collection in our database.
+* <b><u> To create Collection--> </u></b> db.createCollection("MyNewCollection");
+Now it will show that database. 
+* <b><u> To Show Collections--></u></b> show collections
+* <b><u> Insert records in collection--></u></b> db.collectionName.insert({name: "Sneha", class: "SecD", age: 20})
+* <b><u> Show the record in Collection--></u></b> db.collectionName.find();
+* <b><u> Remove the Collection--></u></b>  db.collectionName.drop();
+* <b><u> Remove the DataBase--></u></b>  db.dropDatabase();

@@ -81,4 +81,4 @@ JSON is used to transmit the data and BSON is used to store the data.
 # Different MongoDB Data Types
 <img src="/IMAGE/Data-Types.jpg"><br>
 * <b><u>Integer:</u></b>Integer is a data type that is used for storing a numerical value. 
-<h3 style="background-color:powderblue;"> db.TestCollection.insert({"Integer example": 62}) </h3>
+<h4> db.TestCollection.insert({"Integer example": 62}) </h4>

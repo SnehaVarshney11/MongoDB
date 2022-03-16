@@ -130,6 +130,16 @@ var embeddedObject = {"English" : 94, "ComputerSc." : 96, "Maths" : 80, "General
 <img src="/IMAGES/Object.png">
 
 * <b><u>Min/Max Keys:</u></b>Min / Max keys are implemented for comparing a value adjacent to the lowest as well as highest BSON elements.
-<h3>Example:</h3> 
-<h4>&nbsp;&nbsp; db.TestCollection.insert({"Nationality Indian": true}) <br>
-<img src="/IMAGES/Boolean.png">
+<img src="/IMAGES/Min&Max.png">
+
+* <b><u>Regular expression:</u></b>Regular expression is implemented for storing regular expression.
+<img src="/IMAGES/RegExp.png">
+
+* <b><u>Code:</u></b>Code is implemented for storing JavaScript code for your MongoDB document. 
+<img src="/IMAGES/code.jpg">
+
+* <b><u>Binary data:</u></b>Binary data is implemented for storing binary data.
+<img src="/IMAGES/Binary.jpg">
+
+* <b><u>Object ID:</u></b>Object ID is implemented for storing the ID of the document.
+<img src="/IMAGES/Obj ID.jpg">

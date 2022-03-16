@@ -73,3 +73,7 @@ Data type is an essential component of a language or script that is used to defi
 # What Are JSON and BSON?
 JavaScript Object Notation (JSON) is a standard file format that uses human type readable text to transmit data with attribute-value pairs and array data types. This is one of the most common data formats which are mainly used for asynchronous browser-server communication. JSON is a language-independent format. BSON, on the other hand, is a computer interchange format that is mainly used for data storage and as a network transfer format in the MongoDB database. It is a simple binary form which is used to represent data structures and associative arrays (often called documents or objects in MongoDB).<br>
 <b>NOTE:</b> What is asynchronous data transfer? -->Asynchronous (Non-blocking service) data is data that is not synchronized when it is sent or received. In this type of transmission, signals are sent between the computers and external systems or vice versa in an asynchronous manner.
+
+# Difference between JSON and BSON
+JSON is used to transmit the data and BSON is used to store the data.
+<img src="/IMAGE/JsonAndBson.png">

@@ -87,17 +87,17 @@ JSON is used to transmit the data and BSON is used to store the data.
 
 * <b><u>String:</u></b>String is one of the most frequently implemented data type for storing the data.
 <h3>Example:</h3> 
-<h4>&nbsp;&nbsp; db.TestCollection.insert({"string data type" : "This is a sample message."})
+<h4>&nbsp;&nbsp; db.TestCollection.insert({"string data type" : "This is a sample message."})</h4><br>
 <img src="/IMAGES/String.png">
 
 * <b><u>Double:</u></b>Double, as we know, is used to store float values. It represents the float value and is of 8 bytes.
 <h3>Example:</h3> 
-<h4>&nbsp;&nbsp; db.TestCollection.insert({"double data type": 3.1415})
+<h4>&nbsp;&nbsp; db.TestCollection.insert({"double data type": 3.1415})</h4><br>
 <img src="/IMAGES/Double.png">
 
 * <b><u>Null:</u></b>Null is implemented for storing a Null value.
 <h3>Example:</h3> 
-<h4>&nbsp;&nbsp; db.TestCollection.insert({" EmailID ": null})
+<h4>&nbsp;&nbsp; db.TestCollection.insert({" EmailID ": null})</h4><br>
 <img src="/IMAGES/Null.png">
 
 * <b><u>Date:</u></b>Date is implemented for storing the current date and time as UNIX-time format.
@@ -108,6 +108,6 @@ var date2=ISODate()
 
 var month=date2.getMonth()
 
-db.TestCollection.insert({"Date":date, "Date2":date2, "Month":month})
+db.TestCollection.insert({"Date":date, "Date2":date2, "Month":month}) <br>
 
 <img src="/IMAGES/Date.png">

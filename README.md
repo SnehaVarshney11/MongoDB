@@ -147,7 +147,9 @@ var embeddedObject = {"English" : 94, "ComputerSc." : 96, "Maths" : 80, "General
 # CRUD Operation
 * C stands for Create Documnet, R stands for Read Documnet, U stands for Update Documnet, D stands for Delete Documnet
 # * CREATE DOC (insert Documents in MongoDb)
-1) insert()
-2) insertOne()
-3) insertMany() 
-4) MongoDB Compass(GUI)
+1) insert() -> We can insert one or more data. But for multiple records, the records should be in array.<br>
+<img src="/IMAGES/insert.png"><br>
+2) insertOne() -> Insert only a single document.<br>
+<img src="/IMAGES/insertOne.png"><br>
+3) insertMany() -> Insert more than one records. It produces obj_ID for every records in output. <br>
+<img src="/IMAGES/insertMany.png"><br>

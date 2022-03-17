@@ -129,27 +129,27 @@ var embeddedObject = {"English" : 94, "ComputerSc." : 96, "Maths" : 80, "General
 <h4>&nbsp;&nbsp; db.TestCollection.insert({"Object data type" : "This is Object","Marks" : embeddedObject})</h4><br>
 <img src="/IMAGES/Object.png">
 
-* <b><u>Min/Max Keys:</u></b>Min / Max keys are implemented for comparing a value adjacent to the lowest as well as highest BSON elements.
+* <b><u>Min/Max Keys:</u></b>Min / Max keys are implemented for comparing a value adjacent to the lowest as well as highest BSON elements.<br>
 <img src="/IMAGES/Min&Max.png">
 
-* <b><u>Regular expression:</u></b>Regular expression is implemented for storing regular expression.
+* <b><u>Regular expression:</u></b>Regular expression is implemented for storing regular expression.<br>
 <img src="/IMAGES/RegExp.png">
 
-* <b><u>Code:</u></b>Code is implemented for storing JavaScript code for your MongoDB document. 
+* <b><u>Code:</u></b>Code is implemented for storing JavaScript code for your MongoDB document.<br>
 <img src="/IMAGES/code.jpg">
 
-* <b><u>Binary data:</u></b>Binary data is implemented for storing binary data.
+* <b><u>Binary data:</u></b>Binary data is implemented for storing binary data.<br>
 <img src="/IMAGES/Binary.jpg">
 
-* <b><u>Object ID:</u></b>Object ID is implemented for storing the ID of the document.
+* <b><u>Object ID:</u></b>Object ID is implemented for storing the ID of the document.<br>
 <img src="/IMAGES/Obj ID.jpg">
 
 # CRUD Operation
 * C stands for Create Documnet, R stands for Read Documnet, U stands for Update Documnet, D stands for Delete Documnet
 # * CREATE DOC (insert Documents in MongoDb)
-1) insert() -> We can insert one or more data. But for multiple records, the records should be in array.<br>
+1) <b>insert() -></u> We can insert one or more data. But for multiple records, the records should be in array.<br>
 <img src="/IMAGES/insert.png"><br>
-2) insertOne() -> Insert only a single document.<br>
+2) <u>insertOne() -></u> Insert only a single document.<br>
 <img src="/IMAGES/insertOne.png"><br>
-3) insertMany() -> Insert more than one records. It produces obj_ID for every records in output. <br>
+3) <u>insertMany() -></u> Insert more than one records. It produces obj_ID for every records in output. <br>
 <img src="/IMAGES/insertMany.png"><br>

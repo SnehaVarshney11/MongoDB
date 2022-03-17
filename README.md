@@ -143,3 +143,11 @@ var embeddedObject = {"English" : 94, "ComputerSc." : 96, "Maths" : 80, "General
 
 * <b><u>Object ID:</u></b>Object ID is implemented for storing the ID of the document.
 <img src="/IMAGES/Obj ID.jpg">
+
+# CRUD Operation
+* C stands for Create Documnet, R stands for Read Documnet, U stands for Update Documnet, D stands for Delete Documnet
+# * CREATE DOC (insert Documents in MongoDb)
+1) insert()
+2) insertOne()
+3) insertMany() 
+4) MongoDB Compass(GUI)

@@ -153,3 +153,6 @@ var embeddedObject = {"English" : 94, "ComputerSc." : 96, "Maths" : 80, "General
 <img src="/IMAGES/insertOne.png"><br>
 3) <u>insertMany() -></u> Insert more than one records. It produces obj_ID for every records in output. <br>
 <img src="/IMAGES/insertMany.png"><br>
+
+# * READ DOC
+> db.collectionName.find({<Query>, {projection}})

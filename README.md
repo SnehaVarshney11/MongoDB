@@ -155,4 +155,19 @@ var embeddedObject = {"English" : 94, "ComputerSc." : 96, "Maths" : 80, "General
 <img src="/IMAGES/insertMany.png"><br>
 
 # * READ DOC
-> db.collectionName.find({<Query>, {projection}})
+<b>Methods:</b> find(), findOne(),
+> db.collectionName.find({Query}, {projection})
+* If we want to fetch the record of particular index --
+> db.CollectionName.find()[index];
+* If there are multiple records in which for e.g. name is same and we want first record --
+> db.collectionName.findOne();
+<b>NOTE:</b> There is no use of pretty with findOne() method. 
+* If there are multiple records in which for e.g. name is same and we want only one record --
+> db.collectionName.find({query}).pretty().limit(1);
+* If there are multiple records in which for e.g. name is same and we want second record --
+> db.collectionName.find({query}).pretty().limit(1).skip(1);
+* If there are multiple records in which for e.g. name is same and we want two records and skip first record --
+> db.collectionName.find({query}).pretty().limit(2).skip(1);
+<b>NOTE:</b> We can use <b>forEach(printjson)</b> instead of pretty();
+
+# * UPDATE DOC

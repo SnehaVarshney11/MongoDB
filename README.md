@@ -171,3 +171,5 @@ var embeddedObject = {"English" : 94, "ComputerSc." : 96, "Maths" : 80, "General
 <b>NOTE:</b> We can use <b>forEach(printjson)</b> instead of pretty();
 
 # * UPDATE DOC
+> db.collectionName.update({query}, {$set:{key:value}})
+<img src="/IMAGES/update.png"><br>

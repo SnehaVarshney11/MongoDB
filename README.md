@@ -155,7 +155,7 @@ var embeddedObject = {"English" : 94, "ComputerSc." : 96, "Maths" : 80, "General
 <img src="/IMAGES/insertMany.png"><br>
 
 # * READ DOC
-<b>Methods:</b> find(), findOne(),
+<b>Methods:</b> find(), findOne()
 > db.collectionName.find({Query}, {projection})
 * If we want to fetch the record of particular index --
 > db.CollectionName.find()[index];
@@ -171,5 +171,22 @@ var embeddedObject = {"English" : 94, "ComputerSc." : 96, "Maths" : 80, "General
 <b>NOTE:</b> We can use <b>forEach(printjson)</b> instead of pretty();
 
 # * UPDATE DOC
-> db.collectionName.update({query}, {$set:{key:value}})
+<b>Methods:</b> update(), updateOne(), updateMany(), save()
+> db.collectionName.update({query}, {$set:{key:value}}) 
 <img src="/IMAGES/update.png"><br>
+<b>NOTE:</b> update() works same as updateOne() means both functions update only single record.  
+updateMany() :- It updates multiple records. 
+<b> Update multiple records with the help of update:-
+> db.collectionName.update({name: "Sneha"}, {$set:{sec: "A"}}, multi: true)
+
+* If we want to add a particular record for all then -
+> db.collectionName.updateMany({}, {$set:{email: null}}) -> here {} means for all
+* To update attribute -
+> db.collectionName.updateMany({}, {$rename: {name: "firstname"}})
+* To remove an attribute from all the records -
+> db.collectionName.updateMany({}, {$unset:{email:null}})
+
+# * DELETE DOC
+1) deleteOne() :- delete single record.
+2) deleteMany() :- delete multiple records.
+3) remove() :- It removes all the records within query or without query.

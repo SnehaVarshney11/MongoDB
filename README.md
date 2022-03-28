@@ -190,3 +190,9 @@ updateMany() :- It updates multiple records.
 1) deleteOne() :- delete single record.
 2) deleteMany() :- delete multiple records.
 3) remove() :- It removes all the records within query or without query.
+
+# Aggregation 
+* It is an operation used to process the data that returns the computed results. 
+* It is basically group of data from multiple documents and operates in many ways on those grouped data in order to return one combined result. 
+* In sql, count(*) and with group by is an equivalent of MongoDB aggregation.
+* Aggregate function groups the records in a collection, and can be used to provide sum, avg, max, min etc out of the grouped selected. 

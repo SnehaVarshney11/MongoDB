@@ -196,3 +196,17 @@ updateMany() :- It updates multiple records.
 * It is basically group of data from multiple documents and operates in many ways on those grouped data in order to return one combined result. 
 * In sql, count(*) and with group by is an equivalent of MongoDB aggregation.
 * Aggregate function groups the records in a collection, and can be used to provide sum, avg, max, min etc out of the grouped selected. 
+# Aggregation Modes
+1) Aggregation Pipeline -> Pipeline provides efficient data aggregation using native operations within MongoDB and is the preferred method for data aggregation in MongoDB.  
+2) Map-Reduce
+3) Single Purpose Aggregation Operations
+
+<b> 1) Aggregation Pipeline -></b> In this method, we can pipe a collection into the top and transform it though a series of operations, eventually popping a result out the bottom. 
+
+* <h2>Aggregation Stage Operations -> </h2> $match, $sort, $skip, $group, $count, $out, $project, $limit, $unwind <br>
+Example: <br>
+<b>Count</b> <img src="/IMAGES/Count.png"> <br>
+<b>Match</b> <img src="/IMAGES/Match.png"> <br>
+<b>Group (id is compulsory)</b> <img src="/IMAGES/Group.png"> <br>
+<b>Count</b> <img src="/IMAGES/Count.png"> <br>
+<b>Count</b> <img src="/IMAGES/Count.png"> <br>

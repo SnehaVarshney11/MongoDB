@@ -1,0 +1,5 @@
+db.Student.aggregate([
+    //Stage-3
+    {$match:{sec:"B"}},
+    {$group:{_id:"$gender", count_stu:{$sum:1}, stu_name:{$push:"$name"}}}
+])

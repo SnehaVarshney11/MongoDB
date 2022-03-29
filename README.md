@@ -208,5 +208,11 @@ Example: <br>
 <b>Count</b> <img src="/IMAGES/Count.png"> <br>
 <b>Match</b> <img src="/IMAGES/Match.png"> <br>
 <b>Group (id is compulsory)</b> <img src="/IMAGES/Group.png"> <br>
-<b>Count</b> <img src="/IMAGES/Count.png"> <br>
-<b>Count</b> <img src="/IMAGES/Count.png"> <br>
+<b>Push</b> <img src="/IMAGES/Push.png"> <br>
+<b>Projection</b> <img src="/IMAGES/Projection.png"> <br>
+<b>Sort</b> <img src="/IMAGES/Sort.png"> <br>
+<b>Limit</b> <img src="/IMAGES/Limit.png"> <br>
+<b>Skip</b> <img src="/IMAGES/Skip.png"> <br>
+<b>Out</b> <img src="/IMAGES/Out.png"> <br> <img src="/IMAGES/Compass.png"><br>
+<b>Skip</b> <img src="/IMAGES/Skip.png"> <br>
+<b>Unwind</b> <img src="/IMAGES/Unwind.png"> <br>

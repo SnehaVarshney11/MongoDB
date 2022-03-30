@@ -216,3 +216,33 @@ Example: <br>
 <b>Out</b> <img src="/IMAGES/Out.png"> <br> <img src="/IMAGES/Compass.png"><br>
 <b>Skip</b> <img src="/IMAGES/Skip.png"> <br>
 <b>Unwind</b> <img src="/IMAGES/Unwind.png"> <br>
+
+# Indexes
+* Indexes improve MongoDB query execution.
+* Without index whole collection must be scanned(COLLSCAN).
+* Index stores sorted files values.
+* If appropriate index exists, MongoDB performs only index scan(IXSCAN).
+
+* # Default _id Index
+* {_id:1} is default index in each MongoDB collection.
+* Name of this index is _ id_.
+* Default _id index is unique.
+``` 
+{
+    "v" : 2,
+    "key" :{_id:1},
+    "name" : "_id_",
+    "ns" : "myDb.persons"
+}
+```
+* # getIndexs() Method
+* Returns current indexes for certain collection.
+<br> db.<collectionName>.getIndexes()
+<img src="/IMAGES/getIndex.png"> <br>
+
+* # Create new Index
+* db.collection.createIndex({<keyName>: [-1 | 1]}, <options>)
+* <b> Creation Options <b> :- a) Create index in background. Other operations will not be blocked. 
+{background: true}
+b) Create unique index. {unique: true}
+c) Specify name for the index. {name: "<indexName>"}

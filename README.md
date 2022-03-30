@@ -242,7 +242,13 @@ Example: <br>
 
 * # Create new Index
 * db.collection.createIndex({<keyName>: [-1 | 1]}, <options>)
-* <b> Creation Options <b> :- a) Create index in background. Other operations will not be blocked. 
+* <b> Index Creation Options <b> :- a) Create index in background. Other operations will not be blocked. 
 {background: true}
 b) Create unique index. {unique: true}
 c) Specify name for the index. {name: "<indexName>"}
+* <b> Create Unique Index </b> :- 
+<img src="/IMAGES/createIndex.png"> <br>
+<img src="/IMAGES/createIndex2.png"> <br>
+
+* # Drop single and multiple Indexes
+<img src="/IMAGES/drop.png"> <br>

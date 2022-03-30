@@ -252,3 +252,10 @@ c) Specify name for the index. {name: "<indexName>"}
 
 * # Drop single and multiple Indexes
 <img src="/IMAGES/drop.png"> <br>
+
+# Utilities
+* It provides additional features to MongoDb like mongoexport, mongoimport, mongodump(taking backup), mongorestore. 
+<b> 1) mongoexport :- </b> 
+a) It allows export data either in json or csv format.
+b) Strict Mode Extended JSON format is used.<br>
+Example:- <b>mongoexport</b> --db myDb --collection persons --out person.json

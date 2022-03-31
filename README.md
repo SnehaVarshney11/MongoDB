@@ -259,3 +259,15 @@ c) Specify name for the index. {name: "<indexName>"}
 a) It allows export data either in json or csv format.
 b) Strict Mode Extended JSON format is used.<br>
 Example:- <b>mongoexport</b> --db myDb --collection persons --out person.json
+<b> 2) mongoimport :- </b> 
+a) Imports MongoDB collection data in json and csv format.
+* Strict Mode or Shell Mode extended json format is used. <br>
+Example:- <b>mongoimport</b> --db myDb --collection personsImport --file person.json
+<b> 3) Mongo Dump :- </b>
+a) Binary export of mongodb database.
+b) Without --db option all databases except 'local' will be dumped 
+<b> NOTE:- <b> There are three ways - 1. mongodump, 2. mongodump --db CRUD, 3. mongodump --db CRUD --collection student --out c:\backup
+<b> 4) Mongo Restore :- </b>
+a) Binary import of MongoDB backup
+b) Indexes will be re-created
+Example:- mongorestore, mongorestore --db CRUD, mongorestore --db CRUD --collection student backup\CRUD\student.bson   

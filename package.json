@@ -1,0 +1,28 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "1) It's not No SQL, It's NOT ONLY SQL.\r 2) NoSQL Database is used to refer a non-SQL or non-relational database.\r 3) It's not even a replacement to RDBMS.\r 4) No-SQL database dosen't use tables for storing data.\r 5) As compared to older days, we are saving more and more data.\r 6) It is generally used to store big-data and real time web applications.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnehaVarshney11/MongoDB.git"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "CRUD",
+    "operation"
+  ],
+  "author": "Sneha Varshney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnehaVarshney11/MongoDB/issues"
+  },
+  "homepage": "https://github.com/SnehaVarshney11/MongoDB#readme",
+  "dependencies": {
+    "mongoose": "^6.2.10"
+  }
+}

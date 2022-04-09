@@ -297,3 +297,11 @@ Example:- mongorestore, mongorestore --db CRUD, mongorestore --db CRUD --collect
 * Write the code which interact with mongoDB. (Write on app.js file) 
 * Check the code whether it is correct or not.
 * Open console write npm app.js -> It will show it is connecting or not. 
+
+# Mongoose Schema
+* While Mongo is schema-less, SQL defines a schema via the table definition. A Mongoose ‘schema’ is a document data structure (or shape of the document) that is enforced via the application layer.
+* In Mongoose, a schema is where we model our data, where we describe the structure of the data, the default values, the constraints, and validation.
+
+# Mongoose Model
+* Now, Mongoose is all about Models and a model is like a blueprint that we use to create, query, update and delete documents. 
+* To perform any CRUD operations, we need a Mongoose model, and to create a model, we need a schema.

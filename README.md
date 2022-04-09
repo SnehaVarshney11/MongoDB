@@ -296,4 +296,4 @@ Example:- mongorestore, mongorestore --db CRUD, mongorestore --db CRUD --collect
 * Now add file on that folder. 
 * Write the code which interact with mongoDB. (Write on app.js file) 
 * Check the code whether it is correct or not.
-* Open console 
+* Open console write npm app.js -> It will show it is connecting or not. 

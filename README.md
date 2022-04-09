@@ -270,4 +270,30 @@ b) Without --db option all databases except 'local' will be dumped
 <b> 4) Mongo Restore :- </b>
 a) Binary import of MongoDB backup
 b) Indexes will be re-created
-Example:- mongorestore, mongorestore --db CRUD, mongorestore --db CRUD --collection student backup\CRUD\student.bson   
+Example:- mongorestore, mongorestore --db CRUD, mongorestore --db CRUD --collection student backup\CRUD\student.bson
+
+# MongoDB VS Mongoose
+* Mongoose is an Object Data Modelling Library(ODM) for MongoDB and Node.js, providing a higher level of abstraction.
+* It interacts with database. 
+* It is similar to the relationship between Express and Node, as Express is a layer of abstraction over Node.js while Mongoose is a layer of abstraction over the regular MongoDB driver.
+<img src="/IMAGES/mongoose.png"> <br>
+
+* An object data modelling library is simply a way for us to write our JavaScript code that will interact with the database.
+* Some of the features that Mongoose provides us are schemas to structure and model our data and relationship, easy data validation, simple query APIs and much more.
+* We can create Data Structure with the help of mongoose and we will make schema inside it then create model that provides the functionality to create, insert, delete, update (crud operation).
+
+# NPM 
+* It is a open source environment.
+* It is default package manager for js runtime environment Node.js.
+# Steps
+* Create a folder 
+* Open it with vs code
+* Now install Mongoose/ packages
+* Now open shell by click " ctrl + ` "
+* Write npm init (create package.json file)
+* Now click till it will not create json file. 
+* Write npm intall mongoose. 
+* Now add file on that folder. 
+* Write the code which interact with mongoDB. (Write on app.js file) 
+* Check the code whether it is correct or not.
+* Open console 

@@ -262,10 +262,11 @@ Example:- <b>mongoexport</b> --db myDb --collection persons --out person.json
 <b> 2) mongoimport :- </b> 
 a) Imports MongoDB collection data in json and csv format.
 * Strict Mode or Shell Mode extended json format is used. <br>
-Example:- <b>mongoimport</b> --db myDb --collection personsImport --file person.json
+Example:- <b>mongoimport</b> --db myDb --collection personsImport --file d:\Path\person.json
 <b> 3) Mongo Dump :- </b>
-a) Binary export of mongodb database.
-b) Without --db option all databases except 'local' will be dumped 
+a) If we want to backup our database into json format, we use MongoDump.
+b) Binary export of mongodb database.
+c) Without --db option all databases except 'local' will be dumped 
 <b> NOTE:- <b> There are three ways - 1. mongodump, 2. mongodump --db CRUD, 3. mongodump --db CRUD --collection student --out c:\backup
 <b> 4) Mongo Restore :- </b>
 a) Binary import of MongoDB backup
